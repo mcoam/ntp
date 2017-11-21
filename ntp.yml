@@ -1,0 +1,4 @@
+- name: install the latest version of NTP
+  yum:
+    name: ntp
+    state: latest
